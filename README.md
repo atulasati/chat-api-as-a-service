@@ -39,17 +39,17 @@ POST users/createUser/ <br><br>
 ![image](https://user-images.githubusercontent.com/1689504/218677809-5f240cef-5284-41f8-9b0f-78dec1c20353.png) <br>
 
 
-POST users/createGroup/ <br> <br>
+POST chatting/createGroup/ <br> <br>
 
 ![image](https://user-images.githubusercontent.com/1689504/218677836-9cb77fa0-0d5b-4fdd-ad47-63b3aa0f6f35.png) <br>
 
-POST /users/addUser/ <br> <br>
+POST /chatting/addUser/ <br> <br>
 ![image](https://user-images.githubusercontent.com/1689504/218677878-f9e09f67-a377-43bb-865b-571ed8ecf961.png) <br>
 
-GET /users/searchUser/?search=all <br><br>
+GET /chatting/searchUser/?search=all <br><br>
 ![image](https://user-images.githubusercontent.com/1689504/218677899-c7ddeb8f-4119-49a6-8c65-f1b60e5bff86.png) <br>
 
-DELETE /users/delUser/ <br> <br>
+DELETE /chatting/delUser/ <br> <br>
 ![deluser](https://user-images.githubusercontent.com/1689504/218755376-c605885d-65a2-436e-93f9-f794be3a22b3.png) <br>
 
 PATCH /users/updateUser/ <br> <br>
