@@ -35,22 +35,22 @@ The generated Bearer token needs to be passed in all the subsequent requests und
 
 Following are the results obtained after making requests to few of the endpoints: <br><br>
 
-POST users/createUser/ <br><br>
+POST /users/createUser/ <br><br>
 ![image](https://user-images.githubusercontent.com/1689504/218677809-5f240cef-5284-41f8-9b0f-78dec1c20353.png) <br>
 
 
-POST chatting/createGroup/ <br> <br>
+POST /chatting/createGroup/ <br> <br>
 
-![image](https://user-images.githubusercontent.com/1689504/218677836-9cb77fa0-0d5b-4fdd-ad47-63b3aa0f6f35.png) <br>
+![creategroup](https://user-images.githubusercontent.com/1689504/219340393-b995ff80-9c9c-4989-9315-2672e1b64fb2.png) <br>
 
 POST /chatting/addUser/ <br> <br>
-![image](https://user-images.githubusercontent.com/1689504/218677878-f9e09f67-a377-43bb-865b-571ed8ecf961.png) <br>
+![adduser](https://user-images.githubusercontent.com/1689504/219340473-cb109ed9-d9b6-4a7c-8b97-da0c9867c508.png) <br>
 
-GET /chatting/searchUser/?search=all <br><br>
-![image](https://user-images.githubusercontent.com/1689504/218677899-c7ddeb8f-4119-49a6-8c65-f1b60e5bff86.png) <br>
+GET /chatting/searchUser/?search=all&room_id=11 <br><br>
+![searchusers](https://user-images.githubusercontent.com/1689504/219340876-ca1542cb-ac53-4a55-9e20-86e0add65551.png) <br>
 
 DELETE /chatting/delUser/ <br> <br>
-![deluser](https://user-images.githubusercontent.com/1689504/218755376-c605885d-65a2-436e-93f9-f794be3a22b3.png) <br>
+![Screenshot from 2023-02-16 15-57-36](https://user-images.githubusercontent.com/1689504/219340975-de5735a0-1234-4aa1-94cd-6e3ac2cec908.png)  <br>
 
 PATCH /users/updateUser/ <br> <br>
 ![patchuser](https://user-images.githubusercontent.com/1689504/218757020-bf3db0fa-5c9b-4db8-95ac-1d828d90c92c.png) <br> <br>
